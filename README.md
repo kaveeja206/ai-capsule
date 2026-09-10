@@ -4,6 +4,17 @@ Private AI prompt library for CSE3CWA / CSE5006 Assignment 3.
 
 Save prompts, versions, response summaries, and review notes in a personal archive authenticated with **GitHub OAuth**. The Express server mints its **own JWT** (jsonwebtoken) and stores it in an **HttpOnly cookie** named `token` — never localStorage or Bearer tokens for the app session.
 
+
+## Screenshots
+
+| Landing | Login |
+|--------|--------|
+| ![Landing](docs/screenshots/landing.png) | ![Login](docs/screenshots/login.png) |
+
+| Dashboard form | Capsule list |
+|----------------|--------------|
+| ![Form](docs/screenshots/dashboard-form.png) | ![List](docs/screenshots/dashboard-list.png) |
+
 ## Features
 
 - Public landing page (`/`) and login (`/login`)
